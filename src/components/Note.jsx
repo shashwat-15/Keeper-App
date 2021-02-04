@@ -3,7 +3,7 @@ import DeleteIcon from "@material-ui/icons/Delete";
 
 function Note(props) {
   function handleClick() {
-    props.deleteButtonOnClick(props.id);
+    props.deleteButtonOnClick(props._id);
   }
 
   return (

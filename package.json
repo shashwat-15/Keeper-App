@@ -1,14 +1,22 @@
 {
   "name": "keeper-part-3-starting",
   "version": "1.0.0",
-  "description": "",
+  "description": "Created with CodeSandbox, using React. A simple keeping notes app, which allows addition and deletion of notes",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.11.3",
     "@material-ui/icons": "4.11.2",
+    "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14",
+    "qs": "^6.9.6",
     "react": "16.8.6",
     "react-dom": "16.8.6",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.2.0"
   },
   "devDependencies": {
@@ -25,5 +33,7 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "author": "",
+  "license": "ISC"
 }
